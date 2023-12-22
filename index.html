@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Tretify.id</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit mi quis scelerisque feugiat.</p>
+        </section>
+        <section id="our services">
+            <h2>Our Services</h2>
+            <!-- Add service items here -->
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="container">
+                <h1>register</h1>
+        
+                <form action="">
+                    <!-- NAME -->
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="" id="name">
+                            <p id="error-name" class="error-message">name cannot be empty</p>
+                        </div>        
+                    <!-- EMAIL -->
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                        <p id="error-email" class="error-mesage"></p>
+                    </div>
+                        <!-- PASSWORD -->
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                        <p id="error-password" class="error-mesage"></p>
+                    </div>
+                    <!-- CONFIRM PASSWORD -->
+                    <div>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password">
+                        <p id="error-confirm-password" class="error-mesage"></p>
+                        
+                    </div>
+        
+                    <!-- Register Button -->
+                    <button type="submit">Send</button>
+                </form>
+        
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Jl. Rawa Belong No.XIX, Jakarta Barat, 178980</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
